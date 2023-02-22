@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>회원가입</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <style>
+        .pw-combination{display: flex;}
+        .pw-combination span{display: flex; width: 15px; height: 15px; border: 1px solid #eee; margin-right: 3px;}
+    </style>
+</head>
+
+
+<body>
+    <label>
+        <span>ID: </span>
+        <input />
+    </label>
+    <button>중복체크</button>
+    <br/>
+    <label><span>고정값 </span><input /></label>
+    <button>추가</button>
+    <br/>
+
+    <div class="pw-combination">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+
+    <button>가입</button>
+
+
+    <script>
+        document.querySelector('button').addEventListener('click', function(){
+            window.close();
+        });
+    </script>
+</body>
+
+</html>
